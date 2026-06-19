@@ -1,0 +1,13 @@
+devices:
+  devnet-sandbox:
+    alias: iosxe
+    type: iosxe
+    os: iosxe
+    connections:
+      cli:
+        protocol: ssh
+        ip: 10.10.20.48
+        port: 22
+        arguments:
+          username: admin
+          password: C1sco12345
